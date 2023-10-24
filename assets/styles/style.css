@@ -17,9 +17,9 @@ p {
 
 
 main {
-    width: 55%;
+    width: 800px;
     margin: 0 auto;
-    background-color: rgba(27, 27, 50, 0.8);
+    background-color: darkslategray;
     border-radius: 10px;
     padding: 1rem 2rem;
 }
@@ -27,7 +27,7 @@ main {
 .form-group {
     display: flex;
     flex-direction: column;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
 }
 
 label {
@@ -36,14 +36,14 @@ label {
     margin: .5rem 0;
 }
 
-#name, #email, #number, #dropdown, #favorite, #text-area {
+#name, #email, #number, #dropdown, #text-area {
     padding: .5rem;
     color: gray;
     border-radius: 5px;
 }
 
 option {
-    color: gray;
+    color: black;
 }
 
 .radio-label {
@@ -64,6 +64,8 @@ span {
 }
 
 #submit {
+    width: 250px;
+    margin: 0 auto;
     background-color: #37af65;
     border-radius: 5px;
     padding: 1rem;
